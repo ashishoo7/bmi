@@ -1,0 +1,6 @@
+ function bmiCalculator(weight,height){
+ var yourBMI = Math.floor((weight)/(height*height));
+return yourBMI;
+ }
+var bmi = bmiCalculator(65,1.8);
+console.log("Your BMI: " + bmi);
